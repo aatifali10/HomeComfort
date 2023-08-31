@@ -226,7 +226,7 @@ header {
 .com-text span {
   font-weight: 700;
 }
-.com-text p {
+.com-text h6 {
   color: #fff;
   font-family: Rubik;
   font-size: 18px;
@@ -243,4 +243,39 @@ header {
 .company .com-pic img {
   width: 100%;
   border-radius: 100%;
+}
+.quick-s {
+  background: #058b8c;
+  padding: 150px 0;
+  text-align: center;
+}
+.quick-s h5 {
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.8px;
+  padding-bottom: 50px;
+}
+.quick-s span {
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.26px;
+}
+.quick-s span i {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+/* footer section */
+footer {
+  background: #f9f9f9;
 }
