@@ -145,3 +145,58 @@ header {
   line-height: 40px;
   padding-top: 40px;
 }
+/* who  */
+.who {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 20px 200px;
+}
+.who-pic {
+  /* width: 50%; */
+  display: flex;
+  justify-content: end;
+}
+.who-pic img {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  position: relative;
+}
+.who-pic span {
+  position: absolute;
+  top: 1100px;
+  /* bottom: 90px; */
+  left: 160px;
+  width: 471px;
+  height: 471px;
+  border-radius: 471px;
+  opacity: 0.2;
+  background: #c4c4c4;
+}
+.text {
+  /* width: 50%; */
+  padding: 30px 0;
+}
+.text h3 {
+  color: #1e1e1e;
+  font-family: Rubik;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.8px;
+}
+.text h3 span {
+  color: #058b8c;
+}
+.text p {
+  width: 692px;
+  color: #1e1e1e;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  padding-bottom: 20px;
+}
