@@ -278,4 +278,77 @@ header {
 /* footer section */
 footer {
   background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 200px;
+}
+.page ul li {
+  list-style: none;
+}
+.page ul li a {
+  color: #8f8f8f;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+}
+.links ul li a {
+  color: #8f8f8f;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+}
+.links ul li {
+  list-style: none;
+}
+.ft-info h3 {
+  color: #8f8f8f;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  list-style: none;
+}
+.ft-info h4 {
+  color: #8f8f8f;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.info-inp {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.info-inp input {
+  border-radius: 341px;
+  border: 2px solid #058b8c;
+  padding: 15px;
+}
+.info-inp button {
+  text-transform: uppercase;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 30px;
+  background: #058b8c;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2),
+    3px 4px 10px 0px rgba(0, 0, 0, 0.2) inset;
+}
+h2 {
+  color: #8f8f8f;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
 }
