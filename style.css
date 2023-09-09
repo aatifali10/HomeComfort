@@ -45,8 +45,103 @@ header {
 .nav-item button i {
   padding: 0 8px;
 }
+
 /* hero section start */
 .hero {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0;
+}
+.hero-text {
+  width: 50%;
+  position: relative;
+}
+.left-side {
+  padding: 50px 0px 50px 100px;
+}
+.left-side .feature {
+  border-radius: 30px;
+  background: #058b8c;
+  padding: 15px 63px;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 14px;
+}
+.left-side h2 {
+  color: #1e1e1e;
+  font-family: Rubik;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: start;
+  letter-spacing: -1.8px;
+}
+.left-side h1 {
+  color: #1e1e1e;
+  font-family: Rubik;
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: -3.6px;
+}
+.left-side h1 span {
+  color: #058b8c;
+  font-family: Rubik;
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: -3.6px;
+}
+.left-side p {
+  width: 626px;
+  color: #1e1e1e;
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+}
+/* .hero-text .hero-btn button .btn {
+  background-color: #fff;
+} */
+.left-side .hero-btn button {
+  text-align: center;
+  font-family: Rubik;
+  font-size: 18px;
+  margin: 20px 40px 0 0;
+  font-weight: 700;
+  padding: 20px 56px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 48px;
+  background: #8d0f11;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2),
+    3px 4px 10px 0px rgba(0, 0, 0, 0.2) inset;
+}
+.hero-text .bg-img {
+  position: absolute;
+  width: 255.024px;
+}
+.hero-text .bg-img img {
+  width: 100%;
+}
+.hero-image {
+  width: 50%;
+  position: relative;
+}
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  padding: 0 84px;
+}
+.hero-image .circle {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  top: 0;
+  left: 0;
+}
+.hero-image .circle img {
+  z-index: 0;
+}
+/* .hero {
   display: flex;
   justify-content: space-around;
 }
@@ -113,7 +208,7 @@ header {
 }
 .hero .hero-image {
   width: 50%;
-  /* padding: 70px; */
+ padding: 70px; 
 }
 .hero .hero-image img {
   width: 30%;
@@ -122,7 +217,8 @@ header {
 }
 .circle {
   position: relative;
-}
+} */
+
 /* brands start */
 .brands {
   display: flex;
@@ -171,8 +267,7 @@ header {
 }
 .who-pic span {
   position: absolute;
-  top: 1100px;
-  /* bottom: 90px; */
+  top: 919px;
   left: 150px;
   width: 471px;
   height: 471px;
