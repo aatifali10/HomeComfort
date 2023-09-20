@@ -547,6 +547,23 @@ h2 {
   footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  .ft-logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .ft-logo img {
+    width: 179px;
+    margin: 0 auto;
+  }
+  .ft-logo p {
+    font-size: 10px;
+    width: 342px;
+    margin: 0 auto;
+    line-height: 22px;
   }
 }
 @media (max-width: 992px) and (min-width: 480px) {
